@@ -12,7 +12,7 @@ public class Main {
                 if (current == null){
                     break;
                 }
-                if (current.equals(stringArray[j])){
+                if (current.equals(stringArray[j])) {
                     stringArray[j] = "null";
                 }
             }
